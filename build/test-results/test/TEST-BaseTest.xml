@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BaseTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="NI-INV2393" time="0.0">
+  <properties/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1650847227626	geckodriver	INFO	Listening on 127.0.0.1:10549
+1650847227784	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileac7Yqu"
+1650847228274	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileac7Yqu/search.json.mozlz4", (void 0)))
+1650847229635	Marionette	INFO	Listening on port 34669
+1650847229725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+abr 24, 2022 9:40:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://code.jquery.com/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.seleniumeasy.com/test/, line 49: ReferenceError: Drupal is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OahgkAIwXXEnVYtSx7hLRSdqNDK1Dt0IuJMW5_z-SnY.js line 1 > eval line 2765 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+┌──────────────────────────────────────────────────────────────────────────┐
+│ View your Cucumber Report at:                                            │
+│ https://reports.cucumber.io/reports/6ad7d471-ea4a-4acf-9f2b-e55a260ecc9b │
+│                                                                          │
+│ This report was published in collection "Poc - RestAssured with java"    │
+1650847241417	Marionette	INFO	Stopped listening on port 34669
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+└──────────────────────────────────────────────────────────────────────────┘]]></system-err>
+</testsuite>

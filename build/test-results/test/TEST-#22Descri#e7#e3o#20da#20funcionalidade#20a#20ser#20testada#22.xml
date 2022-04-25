@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="&quot;Descrição da funcionalidade a ser testada&quot;" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-25T00:40:38" hostname="NI-INV2393" time="0.179">
+  <properties/>
+  <testcase name="Deve acessar o site de exemplo" classname="&quot;Descrição da funcionalidade a ser testada&quot;" time="0.179">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'fegergergerg' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Dado(&quot;fegergergerg&quot;)&#10;public void fegergergerg() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'fegergergerg' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Dado(&quot;fegergergerg&quot;)
+public void fegergergerg() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@EXAMPLES @Examples_01 @validado
+Cenário: Deve acessar o site de exemplo # ///home/idd_umoreira/Área de Trabalho/prototipos/automationFrontend/src/test/resources/example.feature:20
+  E fegergergerg                        # null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
